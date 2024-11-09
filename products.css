@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ .clothes h1{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+  }
+   .clothes p{
+    text-align: center;
+    margin: 35px 0;
+    color: gray;
+    font-size: 25px;
+  }
+   .clothes_box{
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    flex-flow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+   .clothes_box .clothes_card{
+    background: #9d9d9d;
+    width: 350px;
+    padding: 25px 25px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+   .clothes_box .clothes_card:hover{
+    box-shadow: 25px 25px 25px rgba(0,0,0,6);
+  }
+   .clothes .clothes_box img{
+    width: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+   .clothes_box .clothes_card h1{
+    font-size: 35px;
+    color: gainsboro;
+    margin: 15px 0;
+  }
+   .clothes_box .clothes_card p{
+    color: white;
+    margin: 25px 0;
+    font-size: 17px;
+  }
+   .clothes_box .clothes_card .btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #f9004d;
+  }
+  
